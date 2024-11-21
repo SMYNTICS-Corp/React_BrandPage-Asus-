@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --red: #D01C28;
+    --grey: #2E2E2E;
+
+
+}
+body{
+    font-family: "Poppins", system-ui;
+}
+*{
+    margin: 0;
+}
+nav img{
+    width: 118px;
+    height: 72px;
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto 10px ;
+}    
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    
+}
+nav ul a{
+    text-decoration:none;
+    color: var(--grey);
+}
+/* For all button in page */
+button{
+    all: unset;
+    color: white;
+    padding: 6px 16px;
+    background-color: var(--red);
+    border: none;
+    height: 31px;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* body section: Text content and Image */
+main{
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 82px);
+    max-width: 1180px;
+    margin: 0 auto ;
+}
+.body_section_Content{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+
+}
+.body_section_Content h1{
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 102px;
+}
+.body_section_Content p{
+    color: var(--gray);
+    max-width: 486px;
+}
+.btn_section {
+    display: flex;
+    gap: 40px;
+}
+/* .btn_section button{
+    font-size: 24px;
+} */
+.btn_section .btn_shopNow{
+    border: none;
+    background-color: var(--red);
+}
+.btn_section .btn_category{
+    border: 1px solid var(--grey);
+    color: var(--grey);
+    background-color: transparent;
+}
+.additional_shop_section p{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.socialMedia_icons{
+    display: flex;
+    gap: 16px;
+}
+
+/* body section Image  */
+.body_section_img img{
+    width: 584px;
+    height: 460px;
+}
